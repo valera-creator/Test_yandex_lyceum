@@ -3,6 +3,3 @@ def reverse(s):
         raise TypeError('Expected str, got {}'.format(type(s)))
 
     return s[::-1]
-
-
-reverse(42)
